@@ -1,0 +1,211 @@
+/*****************************************
+GENERAL
+*****************************************/
+/* body text and background colour scheme*/
+body {
+  background-color: #A8DEE6;
+  font-family: 'Poiret One', cursive;
+  color: #6B6A7D;
+}
+
+
+/* Image and main body formatting*/
+#Wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+/* caption links turquise text colour without underlining*/
+a {
+  color: #C9534B;
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%; /* max-width 100% tells the images to resize to 100% of their parent container*/
+}
+
+h3 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 1.10em;
+  margin: -5px 0 0;
+  font-weight: normal;
+  color: #C9534B;
+}
+
+
+
+/*****************************************
+HEADINGS
+*****************************************/
+header{
+  float:left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+/* Headings text and background colour scheme*/
+header {
+background: #93C2C9;
+border-color: #4B6063;
+}
+
+/* Headings are centred*/
+#logo {
+  text-align: center; 
+  margin: 0;
+}
+
+/* Headings font and margins above and below wwithout left or the right*/
+h1 {
+  font-family: 'Aclonica', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-family: 'Aclonica', sans-serif;
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/*****************************************
+NAVIGATION
+*****************************************/
+/*Navigation font and alignment*/
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li{
+  display:inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+  
+}
+
+
+/*****************************************
+FOOTER
+*****************************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+
+.social-icon{
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+/*****************************************
+PAGE: CONTACT
+*****************************************/
+
+.contact-info {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display:block;
+  min-height: 20px;
+  background-repeat:no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+
+
+/*****************************************
+PAGE: PORTFOLIO
+*****************************************/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li{
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p{
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #7a7a7a;
+}
+
+
+
+/*****************************************
+PAGE: ABOUT
+*****************************************/
+.profile-pic{
+  display:block;
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border: 8px solid #4B6063;
+  border-radius: 100%;
+}
+
+
+/*****************************************
+COLOURS
+*****************************************/
+/* Navigation Links colour scheme*/
+nav {
+  background: #4B6063;
+}
+
+/* Navigation Links remain main white text colour when visited*/
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* Navigation Links change to a green colour when hovered over*/
+nav a:hover {
+  color: #11826D;
+}
